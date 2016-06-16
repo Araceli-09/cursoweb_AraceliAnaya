@@ -1,0 +1,86 @@
+body{
+	margin:0; /*para incorporar margen*/
+	height: 100%; /*para que utilice toda la pantalla*/
+	padding: 0; /*para que no tenga margen interno*/
+	background: white;
+	font-family: Arial, Verdana;
+
+}
+
+h1{
+	color:white;/*letras blancas*/
+	padding: 20px; /*como un margen hacia adentro*/
+	text-align: center; /*para centrar la letra*/
+}
+.titulo_principal{
+
+	background:green; /*fondo negro*/
+}
+
+.menu-navegacion{
+	text-align: center;
+}
+
+.menu-navegacion ul{
+	margin: 10px;
+	padding: 10px;
+}
+
+.menu-navegacion li{
+
+display: inline; /*display es para especificar como se va a ver la página*/
+
+}
+
+.menu-navegacion a{ /*a para que sepa que son los links*/
+
+margin: 10px;
+padding: 10px;
+text-decoration: none; /*para quitar la linea del link*/
+background: green;
+color:white;
+
+}
+
+.menu-navegacion li.active a, /*para saber que en la pagina web estoy dentro de inicio en ese momento y del otro lado hay que especificarlo en inicio por ejemplo con la class="active*/
+.menu-navegacion li:hover a{
+	background:#82B9AD;
+}
+
+.informacion-personal{
+	text-align: center;
+	margin: 50px;
+border: 3px solid #82B9AD;
+}
+
+.nombre {
+	color:#2ABA49;
+}
+
+.circulo{
+	border-radius: 50%;
+}
+
+.informacion {
+	text-align: center;
+	margin: 60px;
+	padding: 20px;
+}
+
+.historial {
+	text-align: center;
+	margin: 60px;
+	padding: 20px;
+}
+
+.trabajo {
+	text-align: center;
+	margin: 60px;
+	padding: 20px;
+}
+
+.gustos {
+	text-align: center;
+	margin: 60px;
+	padding: 20px;
+}
