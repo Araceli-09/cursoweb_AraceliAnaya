@@ -1,0 +1,16 @@
+body{
+	text-align: center;
+}
+
+.jumbotron{
+	background-color: orange;
+}
+
+.container-fluid{
+	color: black;
+	background-color: orange;
+}
+
+.direccion{
+	background-color: #07B929;
+}
