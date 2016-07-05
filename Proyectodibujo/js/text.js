@@ -710,18 +710,21 @@ micanvas= elemento.getContext("2d");
 
 	micanvas.beginPath();
 	micanvas.moveTo(30, 300);
-  micanvas.lineTo(60,300);
+    micanvas.lineTo(60,300);
 	micanvas.strokeStyle ="#00921B";
 	micanvas.lineWidth ="10";
 	micanvas.stroke();
 
 	micanvas.beginPath();
 	micanvas.moveTo(30, 300);
-  micanvas.lineTo(56,293);
+    micanvas.lineTo(56,293);
 	micanvas.strokeStyle ="#AFF800";
 	micanvas.lineWidth ="6";
 	micanvas.stroke();
-}
 
+	micanvas.font = "bold 22px sans-serif";
+	micanvas.fillStyle ="#045167";
+    micanvas.fillText("Anaya Pérez Araceli :)",100,585);
+}
 
 window.addEventListener("load",comenzar,false);
